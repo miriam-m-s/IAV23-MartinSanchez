@@ -174,7 +174,9 @@ target: Kinematic
 ```
 (Pag 89.AI for Games)
 
-
+#### PERCEPCIÓN
+El enemigo tiene la capacidad de percibir al jugador, incluso con un rango y ángulo más reducidos, por ejemplo, detectándolo incluso si se encuentra detrás del enemigo. El enemigo cuenta con un cono de visión que gira en torno a su posición. Cuando el enemigo detecta al jugador dentro de su cono de visión, gira para mirar directamente hacia él y entra en modo de ataque.
+Esto permite simular de manera más relista el enemigo ya que te percibe aunque no estes en su rango de vista.
 
 
 
@@ -183,11 +185,6 @@ target: Kinematic
 
 ## Ampliaciones
 
-Se han realizado las siguientes ampliaciones
-
-- Raycast para que los animales se comporten más inteligentemente y no se choquen con los obstaculos
-- Movimiento del jugador con el clik
-- Interfaz con botones para no usar el teclado para spawnear ratasn,cambio de cámara.
 - Estética del proyecto mejorada 
 
 ## Producción
