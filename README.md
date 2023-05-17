@@ -180,30 +180,7 @@ target: Kinematic
 
 ## Pruebas y métricas
 
-- [Vídeo con la batería de pruebas](https://youtu.be/oGDocXE45-c)
-En el video se pueden ver las siguientes pruebas:
 
-**RATAS**
-
-- **Apartado D y E**: </br>
-            - Se testea separacion con 26 ratas .Se puede ver que las ratas se separan entre ellas. </br>
-            - Se muestra como las ratas merodean tomando direcciones aleatorias y evitando obstáculos mientras el flautista no las atraiga.</br>
-            - Llegada se testea como las ratas al llegar cerca del avatar se van frenando hasta pararse.</br>
-            - El seguimiento se representa junto al esquive de obstáculos.
-
-**PERRO**
-
-- **Apartado B**:</br>
-            - La persecución se muestra en una escena sin obtáculos y el perro predice a donde va el jugador.
-            
-- **Apartado C**:</br>
-            - La huida del perro se prueba con 5 ratas y se ve como huye cuando hay más de 2.
-
-**JUGADOR Y BOTONES**
-
-- **Apartado A**: </br>
-            - Se muestra cómo se mueve el personaje y a su vez la funcionalidad de los botones de añadir ratas, quitar ratas, ocultar obstáculos, vista cenital y                     el reinicio de la escena.
- 
 ## Ampliaciones
 
 Se han realizado las siguientes ampliaciones
