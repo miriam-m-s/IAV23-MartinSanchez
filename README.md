@@ -114,21 +114,19 @@ Cuanta mayor sea la resolución mayor será la cantidad de rayos, mayor será la
 Implementar este enfoque permitirá que el enemigo tenga un cono de visión que pueda detectar tanto al jugador como a las paredes, brindando una interacción más realista.
 
 
+
+
+#### VISION ENEMIGO
 <p align="center">
  <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/conovision.jpg" width="500"/></td>
 </p>
+El enemigo cuenta con un cono de visión que le permite detectar al jugador. Dependiendo de la situación, el enemigo puede entrar en dos estados distintos:
 
-#### VISION ENEMIGO
+* **Ataque:** Si la distancia entre el jugador y el enemigo es igual o menor que el rango de ataque predefinido, el enemigo iniciará el estado de ataque. En este estado, el enemigo realizará su animación de disparo y rotará hacia la posición actual del jugador, preparándose para lanzar ataques.
 
+* **Persecución:** Si la distancia entre el jugador y el enemigo es mayor que el rango de ataque, el enemigo entrará en el estado de persecución. En este estado, el enemigo perseguirá activamente al jugador, moviéndose hacia su posición con el objetivo de acercarse lo suficiente para realizar un ataque.
 
-El enemigo dispone de 2 conos e vision ,el primero estara forward del enemigo(simula la vista) el segundo rotara alrededor del eje del enemigo simulando la percepción(este cono de vision tiene un rango mucho menor)
-- **Merodear:** Perteneciente únicamente a las ratas para que estas tengan un movimiento errático y desordenado.
-- **Separación:** Perteneciente únicamente a las ratas para que estas mantengan una cierta separación entre ellas cuando van en manada hacia el flautista.
-- **Llegada:** Perteneciente al perro y a las ratas para que estos vayan reduciendo su movimiento a medida que se acercan al flautista hasta pararse.
-- **Seguir:** Perteneciente a las ratas para que estas vayan siguiendo al flautista cuando toca la flauta.
-- **EstadoRata:** Perteneciente a las ratas para que estas cambien de estado si el flautista toca la flauta (Seguir, Llegada, Separación) o si no (Merodear).
-- **Huir:** Perteneciente al perro que hará que este huya cuando haya dos o más ratas muy cerca de él.
-- **EstadoPerro:** Perteneciente al perro que cambiará de estado dependiendo de si se cumple la condición de huida o de persecución.
+Estos estados permiten al enemigo adaptar su comportamiento según la distancia entre él y el jugador. Si el jugador está dentro del rango de ataque, el enemigo tomará medidas ofensivas y tratará de eliminar al jugador. Si el jugador se encuentra fuera del rango de ataque, el enemigo se centrará en perseguir al jugador hasta que esté lo suficientemente cerca para lanzar un ataque efectivo.
 
 
 
@@ -174,8 +172,7 @@ target: Kinematic
  # 2. Delegate to seek.
  return Seek.getSteering()
 ```
-
-Persecucion tiene el mismo funcionamiento que el componente "Seguimiento", pero calcula una prediccion teniendo en cuenta la direccion y velocidad del target.(Pag 89.AI for Games)
+(Pag 89.AI for Games)
 
 
 
