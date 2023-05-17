@@ -70,9 +70,7 @@ Para evitar la colisión con la pared, el enemigo calculará una nueva rotación
 
 Estas mejoras ayudarán a que el comportamiento del enemigo durante el merodeo sea más realista y a evitar colisiones con las pared.
 ### CONO DE VISIÓN
-<p align="center">
- <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/conovision.jpg" width="500"/></td>
-</p>
+
 
 ```python
 class ConeVision:
@@ -102,7 +100,23 @@ class ConeVision:
           # Do something with the object
           object.process()
 ```
-El cono de visión se utilizará para la vista del enemigo y para su percepción.
+El cono de visión se utilizará para la vista del enemigo y para su percepción.n El cono de visión se utilizráa para describir el rango de visibilidad o alcance del enemigo.La porción del espacio del enemigo que podra ver y asi procesar esa información.
+
+Los elementos visibles que podrá procesar nuestro enemigo será las paredes y el jugador. 
+
+
+Para lograr esto, implementaremos un algoritmo similar al pseudocódigo. Se utilizará un raycasts lanzados desde la posición enemigo, y la cantidad y dirección de estos rayos dependerán de la resolución deseada. Cada rayo tendrá un rango de distancia y un ángulo, que determinarán el tamaño y la forma del cono de visión. Estos rayos detectarán tanto al jugador como a las paredes.
+
+Durante la ejecución del algoritmo, el enemigo lanzará los rayos en diferentes direcciones dentro del rango de ángulo especificado. Para cada rayo, se verificará si hay colisión con el jugador o con una pared. Si se detecta una colisión con el jugador, el enemigo tomará una decisión.
+
+Cuanta mayor sea la resolución mayor será la cantidad de rayos, mayor será la precisión en la detección de objetos y paredes, pero también requerirá más poder de procesamiento.
+
+Implementar este enfoque permitirá que el enemigo tenga un cono de visión que pueda detectar tanto al jugador como a las paredes, brindando una interacción más realista.
+
+
+<p align="center">
+ <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/conovision.jpg" width="500"/></td>
+</p>
 
 #### VISION ENEMIGO
 
