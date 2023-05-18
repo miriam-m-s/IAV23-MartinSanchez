@@ -182,7 +182,10 @@ Esto permite simular de manera más relista el enemigo ya que te percibe aunque 
 
 ## Pruebas y métricas
 
-
+* A: Enemigo te percibe si estas detras de el.
+* B: ele enmigo te observa
+* C: ele nemigo te persigue
+* D : el enemigo te ataca
 ## Ampliaciones
 
 - Estética del proyecto mejorada 
@@ -193,24 +196,20 @@ Las tareas se han realizado y el esfuerzo ha sido repartido entre los autores.
 
 | Estado  |  Tarea  |  Fecha  |  
 |:-:|:--|:-:|
-| ✔ | Readme | 10-2-2023 |
-| ✔ | Huir | 13-2-2023 |
-| ✔ | Separación| 19-2-2023 |
-| ✔ | Merodear| 14-2-2023|
-| ✔ | Seguimiento| 19-2-2023 |
-| ✔ | Persecución| 21-2-2023 |
-| ✔ | RataControl| 19-2-2023 |
-| ✔ | PerroControl| 21-2-2023 |
-| ✔ | Llegada| 13-2-2023 |
+| ✔ | Readme | -2023 |
+| ✔ | ataque | -2023 |
+| ✔ | Merodear| -2023|
+| ✔ | Seguimiento| -2023 |
+| ✔ | Persecución| -2023 |
+| ✔ | Vista Enemigo| -2023 |
+| ✔ | Persecución| -2023 |
+| ✔ | Refactorizacion código| -2023 |
 |   | ... | |
 |  | OPCIONAL |  |
-| ✔ | Generador pseudoaleatorio | 3-2-2023 |
-| ✔ | Merodear Raycast | 18-2-2023 |
-| ✔ | Seguimiento Raycast | 21-2-2023 |
-| ✔ | Llegada Raycast | 22-2-2023 |
-| ✔ | Persecución Raycast | 22-2-2023 |
-| ✔ | Movimiento Avatar con ratón | 15-2-2023 |
-| ✔ | Botones para cambiar el estado de juego | 22-2-2023 |
+| ✔ | Animaciones | -2023 |
+| ✔ | Particulas | -2023 |
+| ✔ | VFX |  |
+| ✔ | Interfaz | |
 | ✔ | Estetica | 10-2-2023 |
 
 
@@ -219,6 +218,4 @@ Las tareas se han realizado y el esfuerzo ha sido repartido entre los autores.
 Los recursos de terceros utilizados son de uso público.
 
 - *AI for Games*, Ian Millington.
-- [Kaykit Medieval Builder Pack](https://kaylousberg.itch.io/kaykit-medieval-builder-pack)
-- [Kaykit Dungeon](https://kaylousberg.itch.io/kaykit-dungeon)
-- [Kaykit Animations](https://kaylousberg.itch.io/kaykit-animations)
+
