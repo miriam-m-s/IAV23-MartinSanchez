@@ -189,6 +189,8 @@ Esto permite simular de manera más relista el enemigo ya que te percibe aunque 
 ## Ampliaciones
 
 - Estética del proyecto mejorada 
+- Sistema de particulas
+- Interfaz
 
 ## Producción
 
