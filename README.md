@@ -135,7 +135,7 @@ Estos estados permiten al enemigo adaptar su comportamiento según la distancia 
 ### PERSECUCIÓN
 
 El pseudocódigo del algoritmo de movimiento de persecución es:
-```
+```python
 class Pursue extends Seek:
 # The maximum prediction time.
 maxPrediction: float
