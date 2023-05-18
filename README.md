@@ -22,7 +22,7 @@ El **enemigo**(MIRIAM MARTÍN SÁNCHEZ) tendrá cinco estados:
 
 
 ## Diseño de la solución
-### ENEMIGO(MIRIAM MARTÍN SÁNCHEZ)
+### ENEMIGO
 ESTADOS DE LOS ENEMIGIGOS
 <p align="center">
  <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/flujo.jpeg" width="500"/></td>
