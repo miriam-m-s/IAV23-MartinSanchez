@@ -187,9 +187,9 @@ Cuando el enemigo no pueda detectar al jugador, seguirá una rutina predefinida 
 
 ## Pruebas y métricas
 
-* A: Enemigo te percibe si estas detras de el.
-* B: ele enmigo te observa
-* C: ele nemigo te persigue
+* A: Enemigo te percibe si estas detras de él.
+* B: le enemigo te observa
+* C: el enemigo te persigue
 * D : el enemigo te ataca
 ## Ampliaciones
 
