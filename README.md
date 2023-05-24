@@ -175,8 +175,11 @@ target: Kinematic
 (Pag 89.AI for Games)
 
 #### PERCEPCIÓN
-El enemigo tiene la capacidad de percibir al jugador, incluso con un rango y ángulo más reducidos, por ejemplo, detectándolo incluso si se encuentra detrás del enemigo. El enemigo cuenta con un cono de visión que gira en torno a su posición. Cuando el enemigo detecta al jugador dentro de su cono de visión, gira para mirar directamente hacia él y entra en modo de ataque.
-Esto permite simular de manera más relista el enemigo ya que te percibe aunque no estes en su rango de vista.
+<p align="center">
+ <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/cono.jpg" width="500"/></td>
+</p>
+
+El enemigo tiene la capacidad de percibir al jugador, incluso con un rango y ángulo más reducidos, por ejemplo, detectándolo incluso si se encuentra detrás del enemigo. El enemigo tiene un cono de visión que se extiende hacia detras (-vector.forward) y tiene un rango inferior al de vista pero su angulo es la diferencia del total con el ángulo de percepción. Cuando el jugador es detectado dentro del cono de visión, se muestra una imagen de interrogación sobre la cabeza del enemigo y se activa un temporizador aleatorio entre 2 y 5 segundos. Si el jugador permanece dentro del rango de percepción del enemigo durante ese tiempo, el enemigo girará para mirarlo directamente y entrará en modo de ataque.
 ## Implementacion
 <p align="center">
  <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/stateunity.jpeg" width="500"/></td>
