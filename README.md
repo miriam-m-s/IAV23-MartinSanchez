@@ -177,8 +177,13 @@ target: Kinematic
 #### PERCEPCIÓN
 El enemigo tiene la capacidad de percibir al jugador, incluso con un rango y ángulo más reducidos, por ejemplo, detectándolo incluso si se encuentra detrás del enemigo. El enemigo cuenta con un cono de visión que gira en torno a su posición. Cuando el enemigo detecta al jugador dentro de su cono de visión, gira para mirar directamente hacia él y entra en modo de ataque.
 Esto permite simular de manera más relista el enemigo ya que te percibe aunque no estes en su rango de vista.
+## Implementacion
+<p align="center">
+ <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/stateunity.jpeg" width="500"/></td>
+</p>
+Para el comportamiento del enemigo se ha implementado un sistema de control basado en una máquina de estados utilizando Visual Scripting. La visión del enemigo y su percepción determinarán las transiciones entre los diferentes estados de la máquina.</br>
 
-
+Cuando el enemigo no pueda detectar al jugador, seguirá una rutina predefinida en la que merodeará por toda la sala. Sin embargo, si el enemigo visualiza o percibe al jugador, activará otras acciones como atacar y perseguir al objetivo.
 
 ## Pruebas y métricas
 
