@@ -181,7 +181,9 @@ Esto permite simular de manera más relista el enemigo ya que te percibe aunque 
 <p align="center">
  <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/stateunity.jpeg" width="500"/></td>
 </p>
-Para el comportamiento del enemigo se ha utilizado una maquina de estados de Visual Scripting.
+Para el comportamiento del enemigo se ha implementado un sistema de control basado en una máquina de estados utilizando Visual Scripting. La visión del enemigo y su percepción determinarán las transiciones entre los diferentes estados de la máquina.</br>
+
+Cuando el enemigo no pueda detectar al jugador, seguirá una rutina predefinida en la que merodeará por toda la sala. Sin embargo, si el enemigo visualiza o percibe al jugador, activará otras acciones como atacar y perseguir al objetivo.
 
 ## Pruebas y métricas
 
