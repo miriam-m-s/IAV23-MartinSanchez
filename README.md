@@ -194,8 +194,21 @@ Cuando el enemigo no pueda detectar al jugador, seguirá una rutina predefinida 
 ## Ampliaciones
 
 - Estética del proyecto mejorada 
-- Sistema de particulas
-- Interfaz
+<p align="center">
+ <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/enemy.jpg" width="500"/></td>
+ </p>
+ Se ha riggeado el personaje y se ha metido animaciones de mixamo mediante blender para luego ser exportado a unity.</br>
+ Se ha realizado una maquina de estados para activar y desactivar animaciones del personaje.</br>
+
+- Sistema de particulas:</br>
+ Se ha diseñado un sistema de particulas acorde con la estetcia del proyecto para que cuando dispares al enemigo este sistema se genere.
+ 
+ <p align="center">
+ <img src="https://github.com/miriam-m-s/IAV23-MartinSanchez/blob/main/images/shoot.jpg" width="500"/></td>
+ </p>
+
+- Interfaz</br>
+Se ha añadido interfaz al jugador y al enemigo.
 
 ## Producción
 
