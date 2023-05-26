@@ -1,7 +1,7 @@
 
 # ENLACE AL CODIGO DEL REPOSITORIO COMPARTIDO:  [DIEGOYMIRIAM](https://github.com/miriam-m-s/IAV23_MartinSanchez_RolSanchez)
 
-
+[VIDEO PRUEBAS](https://youtu.be/rU06EAn3T9E)
 - [Miriam Martin Sanchez](https://github.com/miriam-m-s)
 
 ## Propuesta
@@ -189,11 +189,15 @@ Para el comportamiento del enemigo se ha implementado un sistema de control basa
 Cuando el enemigo no pueda detectar al jugador, seguirá una rutina predefinida en la que merodeará por toda la sala. Sin embargo, si el enemigo visualiza o percibe al jugador, activará otras acciones como atacar y perseguir al objetivo.
 
 ## Pruebas y métricas
-
+Maquina de estados 
 * A: Enemigo te percibe si estas detras de él.
-* B: le enemigo te observa
-* C: el enemigo te persigue
-* D : el enemigo te ataca
+* B: vista del enemigo
+* C: merodeo
+* D : eataque y persecución
+* E: muerte
+En el video se explica detalladamente todos estos apartados </br>
+[VIDEO PRUEBAS](https://youtu.be/rU06EAn3T9E)
+
 ## Ampliaciones
 
 - Estética del proyecto mejorada 
@@ -219,21 +223,20 @@ Las tareas se han realizado y el esfuerzo ha sido repartido entre los autores.
 
 | Estado  |  Tarea  |  Fecha  |  
 |:-:|:--|:-:|
-| ✔ | Readme | -2023 |
-| ✔ | ataque | -2023 |
-| ✔ | Merodear| -2023|
-| ✔ | Seguimiento| -2023 |
-| ✔ | Persecución| -2023 |
-| ✔ | Vista Enemigo| -2023 |
-| ✔ | Persecución| -2023 |
-| ✔ | Refactorizacion código| -2023 |
+| ✔ | Readme | 26-05-2023 |
+| ✔ | ataque | 10-5-2023 |
+| ✔ | Merodear| 22-5-2023|
+| ✔ | Persecución| 10-5-2023 |
+| ✔ | Vista Enemigo| 12-5-2023 |
+| ✔ | Refactorizacion código| 26-5-2023 |
+| ✔ | muerte| 16-5-2023 |
 |   | ... | |
 |  | OPCIONAL |  |
-| ✔ | Animaciones | -2023 |
-| ✔ | Particulas | -2023 |
-| ✔ | VFX |  |
-| ✔ | Interfaz | |
-| ✔ | Estetica | 10-2-2023 |
+| ✔ | Animaciones | 16-5-2023  |
+| ✔ | Particulas |16-5-2023  |
+| ✔ | VFX | 16-5-2023  |
+| ✔ | Interfaz | 16-5-2023 |
+| ✔ | Estetica | 16-5-2023  |
 
 
 ## Referencias
